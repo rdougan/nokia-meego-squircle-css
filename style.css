@@ -1,0 +1,239 @@
+/* line 3, style.scss */
+body {
+  background: #333;
+  padding: 27px;
+  font-size: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+}
+
+/* line 15, style.scss */
+.nokia-logo {
+  width: 52.1em;
+  height: 52.1em;
+  border-radius: 24em;
+  position: relative;
+}
+
+/* line 32, style.scss */
+.nokia-logo .outer-top-left1,
+.nokia-logo .outer-top-left2,
+.nokia-logo .outer-top-right1,
+.nokia-logo .outer-top-right2,
+.nokia-logo .outer-bottom-left1,
+.nokia-logo .outer-bottom-left2,
+.nokia-logo .outer-bottom-right1,
+.nokia-logo .outer-bottom-right2 {
+  position: absolute;
+  background: #474747;
+}
+
+/*outer top left*/
+/* line 38, style.scss */
+.nokia-logo .outer-top-left1 {
+  top: 4em;
+  border-top-left-radius: 10em 20em;
+  width: 25em;
+  height: 24em;
+}
+
+/* line 45, style.scss */
+.nokia-logo .outer-top-left2 {
+  top: 0;
+  left: 4em;
+  border-top-left-radius: 20em 10em;
+  width: 25em;
+  height: 28em;
+}
+
+/*outer top right*/
+/* line 54, style.scss */
+.nokia-logo .outer-top-right1 {
+  top: 4em;
+  right: 0;
+  border-top-right-radius: 10em 20em;
+  width: 25em;
+  height: 24em;
+}
+
+/* line 62, style.scss */
+.nokia-logo .outer-top-right2 {
+  top: 0;
+  right: 4em;
+  border-top-right-radius: 20em 10em;
+  width: 25em;
+  height: 24em;
+}
+
+/*outer bottom left*/
+/* line 71, style.scss */
+.nokia-logo .outer-bottom-left1 {
+  bottom: 4em;
+  border-bottom-left-radius: 10em 20em;
+  width: 25em;
+  height: 24em;
+}
+
+/* line 78, style.scss */
+.nokia-logo .outer-bottom-left2 {
+  bottom: 0;
+  left: 4em;
+  border-bottom-left-radius: 20em 10em;
+  width: 25em;
+  height: 28em;
+}
+
+/*outer bottom right*/
+/* line 87, style.scss */
+.nokia-logo .outer-bottom-right1 {
+  bottom: 4em;
+  right: 0;
+  border-bottom-right-radius: 10em 20em;
+  width: 25em;
+  height: 24em;
+}
+
+/* line 95, style.scss */
+.nokia-logo .outer-bottom-right2 {
+  bottom: 0;
+  right: 4em;
+  border-bottom-right-radius: 20em 10em;
+  width: 25em;
+  height: 24em;
+}
+
+/* line 114, style.scss */
+.nokia-logo .inner-top-left1,
+.nokia-logo .inner-top-left2,
+.nokia-logo .inner-top-right1,
+.nokia-logo .inner-top-right2,
+.nokia-logo .inner-bottom-left1,
+.nokia-logo .inner-bottom-left2,
+.nokia-logo .inner-bottom-left3,
+.nokia-logo .inner-bottom-right1,
+.nokia-logo .inner-bottom-right2,
+.nokia-logo .inner-bottom-right3 {
+  position: absolute;
+  background: #fff;
+}
+
+/* line 119, style.scss */
+.nokia-logo .inner-top-left1 {
+  top: 11em;
+  left: 13.5em;
+  width: 10em;
+  height: 11.5em;
+  border-top-left-radius: 7em 10em;
+}
+
+/* line 128, style.scss */
+.nokia-logo .inner-top-left2 {
+  top: 10.1em;
+  left: 14.5em;
+  width: 12em;
+  height: 10em;
+  border-top-left-radius: 10em 7em;
+}
+
+/* line 138, style.scss */
+.nokia-logo .inner-top-right1 {
+  top: 11em;
+  right: 13.4em;
+  width: 10em;
+  height: 11.5em;
+  border-top-right-radius: 7em 10em;
+}
+
+/* line 147, style.scss */
+.nokia-logo .inner-top-right2 {
+  top: 10.1em;
+  right: 14.4em;
+  width: 12em;
+  height: 10em;
+  border-top-right-radius: 10em 7em;
+}
+
+/* line 157, style.scss */
+.nokia-logo .inner-bottom-left1 {
+  top: 22.4em;
+  left: 13.5em;
+  width: 10em;
+  height: 9em;
+  border-bottom-left-radius: 8em 31em;
+  border-top-left-radius: 0.9em 1em;
+}
+
+/* line 167, style.scss */
+.nokia-logo .inner-bottom-left2 {
+  top: 24.4em;
+  left: 17.5em;
+  width: 14em;
+  height: 16em;
+  border-bottom-left-radius: 6em 16em;
+  border-top-left-radius: 1em 6em;
+  border-bottom-right-radius: 6em 6em;
+  -webkit-transform: rotate(-37deg);
+}
+
+/* line 179, style.scss */
+.nokia-logo .inner-bottom-left3 {
+  top: 33.35em;
+  left: 21.5em;
+  width: 6em;
+  height: 8em;
+  -webkit-transform: rotate(-55deg);
+  border-top-left-radius: 1em 5em;
+}
+
+/* line 190, style.scss */
+.nokia-logo .inner-bottom-right1 {
+  top: 22.4em;
+  right: 13.4em;
+  width: 10em;
+  height: 9em;
+  border-bottom-right-radius: 8em 31em;
+  border-top-right-radius: 0.9em 1em;
+}
+
+/* line 200, style.scss */
+.nokia-logo .inner-bottom-right2 {
+  top: 24.4em;
+  right: 17.4em;
+  width: 14em;
+  height: 16em;
+  border-bottom-right-radius: 6em 16em;
+  border-top-right-radius: 1em 6em;
+  border-bottom-left-radius: 6em 6em;
+  -webkit-transform: rotate(37deg);
+}
+
+/* line 212, style.scss */
+.nokia-logo .inner-bottom-right3 {
+  top: 33.35em;
+  right: 21.4em;
+  width: 6em;
+  height: 8em;
+  -webkit-transform: rotate(55deg);
+  border-top-right-radius: 1em 5em;
+}
+
+/* line 223, style.scss */
+.nokia-logo .inner-easy {
+  background: #474747;
+  position: absolute;
+  left: 19.4em;
+  top: 15.2em;
+  width: 13.4em;
+  height: 13.4em;
+  border-radius: 100%;
+}
